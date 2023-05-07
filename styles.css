@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    font-weight: bolder;
+    font-family: 'Nunito';
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 1rem;
+
+}
+
+.logo-img {
+    width: 270px;
+    height: 270px;
+}
+
+.navbar,
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-links a {
+    color: black;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.navbar-links li {
+    transition: all .3s ease;
+}
+
+.navbar-links li:hover {
+    transform: translateY(9px);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+#introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduction-info {
+    width: 50%;
+    display: flex;
+    margin-top: 50px;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.introduction-info h1  {
+    font-weight: 800;
+    font-size: 27px;
+    color: black;
+}
+
+.introduction-info p {
+    width: 75%;
+    font-size: 18px;
+}
+
+.introduction-info a {
+    color: white;
+    font-weight: 800;
+    background-color: skyblue;
+    width: 40%;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1rem;
+    transition: all .3s ease;
+}
+
+.introduction-info a:hover {
+    transform: translateX(10px);
+}
+
+
+
+
